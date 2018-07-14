@@ -18,6 +18,10 @@
 
 class Solution {
 public:
+    /**
+     * time: o(n^2)
+     * space: o(n)
+     */
     static std::vector<int> countBits1(int num) {
         std::vector<int> ret(num+1);
         for(int i = 0; i <= num; i++) {
